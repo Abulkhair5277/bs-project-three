@@ -1,0 +1,563 @@
+/*
+
+	author:abulkhair;
+	website:none;
+	mail:abulkhair5277@gmail.com;
+
+
+*/
+
+
+/*
+
+	====index====
+	1.header
+	2.Fusce at
+	3.Facilisis 
+	4.Ante donec
+	5.Blandit rhoncus
+	6.Placerat
+	7.footer
+
+
+	color
+	#edeff1
+	#dd4b2b
+	#4b4e73
+	#31353e
+	#ab8a83
+	#edeff1
+
+          
+*/
+/* theme css */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,400&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+
+
+/* global css */
+.body{
+	font-family: font-family: 'Roboto slab', sans-serif;
+}
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+h6{
+
+}
+
+p{
+
+}
+
+.img-center {
+    width: 125px;
+    padding: 5px 0px;
+}
+
+.news-btn {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px 30px;
+    border: 1px solid gray;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 400;
+    background: transparent;
+    color: white;
+    transition: .4s ease-in-out;
+    border-radius: 30px;
+}
+.news-btn:hover{
+	background-color: white;
+	color: #ab8a83;
+}
+
+/* header section */
+.nav-head{
+	background-color: #edeff1;
+}
+.nav-link.js-scroll-trigger{
+	color: #31353e;
+	margin: 0px 15px;
+}
+.nav-link.js-scroll-trigger.active{
+	background-color: #dd4b2b;
+	padding: 4px 15px;
+	color: white;
+	border-radius: 30px;
+}
+
+/* hero section */
+
+.hero{
+	background-image: url(../img/banner-one.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.hero-contant {
+    text-align: center;
+}
+.hero-contant h2 {
+    margin-top: 300px;
+    color: white;
+    font-weight: 326;
+    font-size: 55px;
+}
+.hero-contant h4 {
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.hero-item {
+    margin-top: 45px;
+    text-align: center;
+    width: 100%;
+}
+.hero-item img {
+    width: 150px;
+}
+.hero-item h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: 350;
+    margin-top: 13px;
+}
+.hero-item h6 {
+    font-size: 15px;
+    color: white;
+    font-weight: 315;
+}
+/* service section */
+.service{
+	background-color: #edeff1;
+}
+.service-contant {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.service-contant h2 {
+    color: black;
+    font-size: 45px;
+    font-weight: 450;
+    padding-right: 40px;
+}
+
+.food-item {
+    text-align: center;
+    width: 100%;
+}
+.food-item img {
+    width: 350px;
+}
+.food-item h3 {
+    font-size: 25px;
+    font-weight: 350;
+    margin-top: 15px;
+}
+.food-item h6 {
+    font-size: 14px;
+    font-weight: 300;
+}
+.service-btn{
+	margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px 30px;
+    border: 1px solid gray;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 400;
+    background: white;
+    color: #ab8a83;
+    transition: .4s ease-in-out;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+.Newsletter{
+	background-image: url(../img/banner-two.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.Newsletter-content {
+    text-align: center;
+    margin-top: 15px;
+}
+.Newsletter-content h2 {
+    font-size: 35px;
+    font-weight: 350;
+    color: white;
+}
+.Newsletter-content p {
+    font-size: 15px;
+    color: white;
+}
+.form-group {
+    margin-bottom: 30px;
+}
+.form-control {
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+}
+
+.submit-btn {
+    position: absolute;
+    right: 10px;
+    top: 111px;
+    padding: 6px;
+    width: 25%;
+    border-radius: 50px;
+    border: 1px solid gray;
+    text-transform: capitalize;
+    background: white;
+    width: 25%;
+}
+.blandit-contant{
+
+}
+.blandit-contant h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.blandit-contant h6 {
+    font-size: 14px;
+    font-weight: 350;
+}
+.blandit-img img {
+    width: 100%;
+    border: 1px solid gray;
+    height: 250px;
+    margin-top: 25px;
+}
+.blandit-btn {
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: black;
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    transition: .4s ease-in-out;
+    border: 1px solid gray;
+}
+.blandit-btn-two {
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: black;
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 23px;
+    transition: .4s ease-in-out;
+    border: 1px solid gray;
+}
+.blandit-btn:hover{
+	background-color: #dd4b2b;
+	color: white;
+}
+.blandit-btn-two:hover{
+	background-color: #31353e;
+	color: white;
+}
+.placerat-content {
+    background-color: #dd4b2b;
+    text-align: center;
+}
+.placerat-h{
+	margin-top: 30px;
+}
+.placerat-h h5 {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer {
+    background-image: url(../img/banner-three.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-content {
+    text-align: center;
+}
+.footer-content h5 {
+    font-size: 18px;
+    color: black;
+    margin-top: 35px;
+    margin-bottom: 70px;
+    font-weight: 400;
+}
+
+
+
+
+
+/* media query */
+
+/* extra small device */
+@media (min-width: 320px) and (max-width: 576px){
+.news-btn {
+    font-size: 10px;
+    padding: 5px 20px;
+}
+.hero-contant h2 {
+    font-size: 30px;
+}
+.hero-contant h4 {
+    font-size: 15px;
+}
+.hero-item img {
+    width: 100px;
+}
+.hero-item h3 {
+    font-size: 23px;
+}
+.hero-item h6 {
+    font-size: 12px;
+}
+.submit-btn {
+    top: 133px;
+}
+.service-contant h2 {
+    font-size: 30px;
+    padding-right: 40px;
+}
+.food-item img {
+    width: 200px;
+}
+.food-item h3 {
+    font-size: 23px;
+}
+.food-item h6 {
+    font-size: 11px;
+}
+.service-btn{
+    padding: 5px 20px;
+    font-size: 10px;
+}
+.Newsletter-content h2 {
+    font-size: 27px;
+    padding-right: 100px;
+}
+.Newsletter-content p {
+    font-size: 10px;
+    padding-right: 100px;
+}
+.form-control {
+    width: 100%;
+    margin-left:px;
+}
+.submit-btn {
+    top: 87px;
+    width: 20%;
+    right: 15px;
+}
+.footer-content h5 {
+    font-size: 10px;
+}
+}
+
+/* small device */
+@media (min-width: 576.01px) and (max-width: 768px){
+.news-btn {
+    font-size: 12px;
+    padding: 8px 25px;
+}
+.hero-contant h2 {
+    font-size: 32px;
+}
+.hero-contant h4 {
+    font-size: 17px;
+}
+.hero-item img {
+    width: 115px;
+}
+.hero-item h3 {
+    font-size: 25px;
+}
+.hero-item h6 {
+    font-size: 13px;
+}
+.submit-btn {
+    top: 134px;
+}
+.service-contant h2 {
+    font-size: 35px;
+    padding-right: 58px;
+}
+.food-item img {
+    width: 220px;
+}
+.food-item h3 {
+    font-size: 24px;
+}
+.food-item h6 {
+    font-size: 12px;
+}
+.service-btn{
+    padding: 7px 24px;
+    font-size: 11px;
+}
+.Newsletter-content h2 {
+    font-size: 30px;
+    padding-right: 100px;
+}
+.Newsletter-content p {
+    font-size: 12px;
+    padding-right: 100px;
+}
+.form-control {
+    width: 100%;
+    margin-left: -70px;
+
+}
+.submit-btn {
+    top: 114px;
+    width: 25%;
+    right: 83px;
+}
+.footer-content h5 {
+    font-size: 12px;
+}
+}
+
+/* medium device */
+@media (min-width: 768.01px) and (max-width: 992px){
+.news-btn {
+    font-size: 14px;
+    padding: 9px 28px;
+}
+.hero-contant h2 {
+    font-size: 35px;
+}
+.hero-contant h4 {
+    font-size: 19px;
+}
+.hero-item img {
+    width: 130px;
+}
+.hero-item h3 {
+    font-size: 27px;
+}
+.hero-item h6 {
+    font-size: 14px;
+}
+.submit-btn {
+    top: 111
+}
+.service-contant h2 {
+    font-size: 40px;
+    padding-right: 58px;
+}
+.food-item img {
+    width: 230px;
+}
+.food-item h3 {
+    font-size: 25px;
+}
+.food-item h6 {
+    font-size: 13px;
+}
+.service-btn{
+    padding: 8px 27px;
+    font-size: 13px;
+}
+.Newsletter-content h2 {
+    font-size: 33px;
+    margin-left: -20px;
+    width: 80%;
+}
+.Newsletter-content p {
+    font-size: 14px;
+    margin-left: -20px;
+    width: 80%;
+}
+.form-control {
+    width: 100%;
+    margin-left: -80px;
+}
+.submit-btn {
+    top: 105px;
+    width: 24%;
+    right: 94px;
+}
+.footer-content h5 {
+    font-size: 15px;
+}
+}
+
+/* larg device */
+@media (min-width: 992.01px) and (max-width: 1200px){
+.news-btn {
+    font-size: 15px;
+}
+.hero-contant h2 {
+    font-size: 40px;
+}
+.hero-contant h4 {
+    font-size: 25px;
+}
+.hero-item img {
+    width: 145px;
+}
+.hero-item h3 {
+    font-size: 30px;
+}
+.hero-item h6 {
+    font-size: 15px;
+}
+.submit-btn {
+    top: 134px;
+}
+.service-contant h2 {
+    font-size: 45px;
+    padding-right: 40px;
+}
+.food-item img {
+    width: 300px;
+}
+.food-item h6 {
+    font-size: 14px;
+}
+.Newsletter-content h2 {
+    font-size: 35px;
+    padding-right: 50px;
+}
+.Newsletter-content p {
+    font-size: 15px;
+    padding-right: 50px;
+}
+.submit-btn {
+    right: 15px;
+    top: 133px;
+    width: 30%;
+}
+.footer-content h5 {
+    font-size: 18px;
+}
+}
